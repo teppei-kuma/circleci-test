@@ -5,9 +5,19 @@ jobs:
       - image: debian:stretch
     steps:
       - checkout
+      
       - run:
-          name: Greeting
-          command: echo Hello, world.
+        name: Greeting
+        command: echo Hello, world.
+        
       - run:
-          name: Print the Current Time
-          command: date
+        name: Print the Current Time
+        command: date
+        
+      - run:
+        name: Tree
+        command: tree
+      
+      - run:
+        name: List
+        command: ls -l
