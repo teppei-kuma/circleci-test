@@ -2,4 +2,5 @@ version: 2
 jobs: 
   build:
     steps:
-      -- run: echo "Hello world"
+      - checkout
+      - run: echo "Hello world"
