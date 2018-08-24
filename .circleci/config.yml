@@ -13,10 +13,6 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
-        
-      - run:
-          name: Tree
-          command: tree
       
       - run:
           name: List
